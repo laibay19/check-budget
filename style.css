@@ -1,0 +1,56 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body{
+    background-image: url("back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:10% ;
+}
+input{
+    height: 32px;
+    width: 193px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 2px 3px 5px #343c39;
+    color: white;
+    background-color: #343c39;
+    border: 2px solid white;
+
+
+}
+
+#budge{
+    margin-top: 20px;
+}
+button{
+    height: 32px;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: #343c39;
+
+}
