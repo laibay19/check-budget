@@ -10,7 +10,7 @@ input[type=number] {
 }
 
 body{
-    background-image: url("back.jpg");
+    background-image: url("BACK2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,4 +53,7 @@ button{
     color: white;
     background-color: #343c39;
 
+}
+.mystyle{
+    background-color: #343c39;
 }
